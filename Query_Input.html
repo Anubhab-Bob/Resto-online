@@ -1,0 +1,56 @@
+<html>
+
+    <head>
+        <title>Query Input</title>
+    </head>
+
+	<body bgcolor=#e4f5b1>
+        <h1>Query : Generate report on in-house order information from date__ to date__</h1>
+        <br><br>
+        <h4>Enter the Dates : </h4>
+        <form action ="Query.php" method = "POST" id='form1'>
+            <b>From : <input type = "date" name = "from1"><br><br>
+            <b>To : &nbsp&nbsp&nbsp&nbsp&nbsp<input type = "date" name = "to1"><br><br>
+            <hr>
+			<div align="center">
+                <input type = "submit" name="submit" value="Submit">
+            </div>
+        </form>
+
+		<h1>Query : Generate report on out-house order information from date__ to date__</h1>
+        <br><br>
+        <h4>Enter the Dates : </h4>
+        <form action ="Query.php" method = "POST" id='form2'>
+            <b>From : <input type = "date" name = "from2"><br><br>
+            <b>To : &nbsp&nbsp&nbsp&nbsp&nbsp<input type = "date" name = "to2"><br><br>
+            <hr>
+            <div align="center">
+                <input type = "submit" name="submit" value="Submit">
+            </div>
+        </form>
+
+		<h1>Query : Generate report on out-house order information above threshold Amount</h1>
+        <br><br>
+        <h4>Enter the Threshold : </h4>
+        <form action ="Query.php" method = "POST" id='form3'>
+            <b>Amount : <input type = "number" name = "value"><br><br>
+            <hr>
+            <div align="center">
+                <input type = "submit" name="submit" value="Submit">
+            </div>
+        </form>
+        
+		<h1>Query : Generate report on weekwise utilisation of delivery boy</h1>
+        <br><br>
+        <h4>Enter the Date : </h4>
+        <form action ="Bargraph Query 4.php" method = "POST" id='form4'>
+            <b>From : <input type = "date" name = "from3"><br><br>
+            <hr>
+            <div align="center">
+                <input type = "submit" name="submit2" value="Graph">
+            </div>
+        </form>
+
+    </body>
+
+</html>

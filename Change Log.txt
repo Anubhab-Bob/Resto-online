@@ -1,0 +1,57 @@
+Login Page (form.php):
+
+Slight change in appearance -
+1. Padded the Sign In button in div element to centre align
+2. Added line breaks after text boxes and before Admin link
+
+
+Register Page (Register.php):
+
+Slight change in appearance -
+1. Aligned the text boxes
+
+
+Order Page (Give Order.php):
+
+Slight change in appearance -
+1. Aligned the text boxes
+
+
+Checkout Page (Checkout.php):
+
+Slight change in appearance -
+1. Aligned the text boxes
+2. Removed the Total textbox
+
+
+Successful page (Successful.php):
+
+1. Changed NULL condition to mysqli_num_rows($checkID)==0
+2. Removed Quotes from Numeric attribute entries
+New Bill is not being generated
+
+
+Signed in Details Page(Login Details.php)
+
+Slight change in appearance -
+1. Aligned the text boxes
+2. Added line break before last div
+
+
+Query Output Page(Query.php):
+
+1. Bargraph page not opening from Query Input.php (Ended each form now working)
+
+
+
+Bargraph Page(Bargraph Query 4.php)
+
+1. Not Displaying Graph
+
+
+
+
+Database Problems :
+
+1. Employee area not foreign key (Altered in Bob's DB)
+2. No foreign keys in online_order (Altered in Bob's DB)
